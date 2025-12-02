@@ -30,4 +30,3 @@ Normalization: Nested JSON structures (specifically track_metadata) are flattene
 Strict Validation: A custom validation layer filters the dataset. It enforces schema rules, such as ensuring IDs are 36-character strings, timestamps are valid, and numerical values (like duration) fall within logical ranges. Invalid rows are discarded to maintain data quality.
 
 Incremental Loading: The validated data is loaded into the stg.raw table in DuckDB. The script uses a WHERE NOT EXISTS clause to perform an incremental load, adding only new records that do not already exist in the database.
->>>>>>> f12d4f2 (Initial commit)
