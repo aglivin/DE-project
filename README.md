@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# DE-project
-=======
+# Data Engineering project with sample spotify Data from https://listenbrainz.org/ in Json format
+
 Project Structure
 * `task1_elt.ipynb`: The main Jupyter notebook with ETL Transformations for task 1.
 * `task2_analysis.ipynb`: Jupyter notebook containing SQL Statements for task 2.
