@@ -5,7 +5,6 @@ Project Structure
 * `task2_analysis.ipynb`: Jupyter notebook containing SQL Statements for task 2.
 * `dataset.parquet`: The source data.
 * `database/sample.db`: Duckdb DataBase.
-* `task2_analysis_output.html`: A static export of the notebook (open this to view results without running code).
 * `Dockerfile`, `docker-compose.yml`, `requirements.txt`: Configuration for the reproducible environment.
 
 
